@@ -763,16 +763,16 @@ const u32 gObjectEventPic_LyraWatering[] = INCBIN_U32("graphics/object_events/pi
 const u32 gObjectEventPic_LyraDecorating[] = INCBIN_U32("graphics/object_events/pics/people/lyra/decorating.4bpp");
 const u16 gObjectEventPal_Lyra[] = INCBIN_U16("graphics/object_events/palettes/lyra.gbapal");
 
-const u32 gObjectEventPic_KrisNormal[] = INCBIN_U32("graphics/object_events/pics/people/kris/walking.4bpp");
-const u32 gObjectEventPic_KrisRunning[] = INCBIN_U32("graphics/object_events/pics/people/kris/running.4bpp");
-const u32 gObjectEventPic_KrisSurfing[] = INCBIN_U32("graphics/object_events/pics/people/kris/surfing.4bpp");
-const u32 gObjectEventPic_KrisUnderwater[] = INCBIN_U32("graphics/object_events/pics/people/kris/underwater.4bpp");
-const u32 gObjectEventPic_KrisMachBike[] = INCBIN_U32("graphics/object_events/pics/people/kris/mach_bike.4bpp");
-const u32 gObjectEventPic_KrisAcroBike[] = INCBIN_U32("graphics/object_events/pics/people/kris/acro_bike.4bpp");
-const u32 gObjectEventPic_KrisFieldMove[] = INCBIN_U32("graphics/object_events/pics/people/kris/field_move.4bpp");
-const u32 gObjectEventPic_KrisFishing[] = INCBIN_U32("graphics/object_events/pics/people/kris/fishing.4bpp");
-const u32 gObjectEventPic_KrisWatering[] = INCBIN_U32("graphics/object_events/pics/people/kris/watering.4bpp");
-const u32 gObjectEventPic_KrisDecorating[] = INCBIN_U32("graphics/object_events/pics/people/kris/decorating.4bpp");
+const u32 gObjectEventPic_KrisNormal[] = INCBIN_U32("graphics/object_events/pics/people/player/kris/walking.4bpp");
+const u32 gObjectEventPic_KrisRunning[] = INCBIN_U32("graphics/object_events/pics/people/player/kris/running.4bpp");
+const u32 gObjectEventPic_KrisSurfing[] = INCBIN_U32("graphics/object_events/pics/people/player/kris/surfing.4bpp");
+const u32 gObjectEventPic_KrisUnderwater[] = INCBIN_U32("graphics/object_events/pics/people/player/kris/underwater.4bpp");
+const u32 gObjectEventPic_KrisMachBike[] = INCBIN_U32("graphics/object_events/pics/people/player/kris/mach_bike.4bpp");
+const u32 gObjectEventPic_KrisAcroBike[] = INCBIN_U32("graphics/object_events/pics/people/player/kris/acro_bike.4bpp");
+const u32 gObjectEventPic_KrisFieldMove[] = INCBIN_U32("graphics/object_events/pics/people/player/kris/field_move.4bpp");
+const u32 gObjectEventPic_KrisFishing[] = INCBIN_U32("graphics/object_events/pics/people/player/kris/fishing.4bpp");
+const u32 gObjectEventPic_KrisWatering[] = INCBIN_U32("graphics/object_events/pics/people/player/kris/watering.4bpp");
+const u32 gObjectEventPic_KrisDecorating[] = INCBIN_U32("graphics/object_events/pics/people/player/kris/decorating.4bpp");
 const u16 gObjectEventPal_Kris[] = INCBIN_U16("graphics/object_events/palettes/kris.gbapal");
 
 const u32 gObjectEventPic_LucasNormal[] = INCBIN_U32("graphics/object_events/pics/people/lucas/walking.4bpp");

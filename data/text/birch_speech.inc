@@ -47,7 +47,7 @@ gText_Birch_ConfirmRivalName::
 
 gText_Birch_YourePlayer::
     .string "That's right! I remember now!\n"
-    .string "His name is {RIVAL}!\p$"
+    .string "Forget that asshole!\p$"
 
 gText_Birch_AreYouReady::
     .string "{PLAYER}!\p"

@@ -162,11 +162,11 @@
 #define CONNECTION_DIVE     5
 #define CONNECTION_EMERGE   6
 
-#define	RED_COSTUME					0
+#define	KRIS_COSTUME			    0
 #define	LEAF_COSTUME				1
 #define	ETHAN_COSTUME				2
 #define	LYRA_COSTUME				3
-#define	KRIS_COSTUME				4
+#define	RED_COSTUME				    4
 #define BRENDAN_COSTUME       		5
 #define MAY_COSTUME       			6
 #define	LUCAS_COSTUME				7

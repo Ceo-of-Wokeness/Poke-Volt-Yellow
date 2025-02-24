@@ -1395,7 +1395,7 @@ static void Task_NewGameBirchSpeechSub_InitPokeBall(u8 taskId)
     gSprites[spriteId].invisible = FALSE;
     gSprites[spriteId].data[0] = 0;
 
-    CreatePokeballSpriteToReleaseMon(spriteId, gSprites[spriteId].oam.paletteNum, 112, 58, 0, 0, 32, PALETTES_BG, SPECIES_EEVEE);
+    CreatePokeballSpriteToReleaseMon(spriteId, gSprites[spriteId].oam.paletteNum, 112, 58, 0, 0, 32, PALETTES_BG, SPECIES_CLEFAIRY);
     gTasks[taskId].func = Task_NewGameBirchSpeechSub_WaitForLotad;
     gTasks[sBirchSpeechMainTaskId].tTimer = 0;
 }
@@ -1498,6 +1498,7 @@ static void Task_NewGameBirchSpeech_WaitForPlayerFadeIn(u8 taskId)
     if (gTasks[taskId].tIsDoneFadingSprites)
     {
         gSprites[gTasks[taskId].tPlayerSpriteId].oam.objMode = ST_OAM_OBJ_NORMAL;
+		//gTasks[taskId].func = Task_NewGameBirchSpeech_BoyOrGirl;
         gTasks[taskId].func = Task_NewGameBirchSpeech_WhatsYourName;
     }
 }
@@ -1643,7 +1644,24 @@ static void Task_NewGameBirchSpeech_CreateNameYesNo(u8 taskId)
         gTasks[taskId].func = Task_NewGameBirchSpeech_ProcessNameYesNoMenu;
     }
 }
-
+//Old Vanilla function
+/*static void Task_NewGameBirchSpeech_ProcessNameYesNoMenu(u8 taskId)
+{
+    switch (Menu_ProcessInputNoWrapClearOnChoose())
+    {
+        case 0:
+            PlaySE(SE_SELECT);
+            gSprites[gTasks[taskId].tPlayerSpriteId].oam.objMode = ST_OAM_OBJ_BLEND;
+            NewGameBirchSpeech_StartFadeOutTarget1InTarget2(taskId, 2);
+            NewGameBirchSpeech_StartFadePlatformIn(taskId, 1);
+            gTasks[taskId].func = Task_NewGameBirchSpeech_SlidePlatformAway2;
+            break;
+        case MENU_B_PRESSED:
+        case 1:
+            PlaySE(SE_SELECT);
+            gTasks[taskId].func = Task_NewGameBirchSpeech_BoyOrGirl;
+    }
+}*/
 static void Task_NewGameBirchSpeech_ProcessNameYesNoMenu(u8 taskId)
 {
     switch (Menu_ProcessInputNoWrapClearOnChoose())
@@ -1653,7 +1671,11 @@ static void Task_NewGameBirchSpeech_ProcessNameYesNoMenu(u8 taskId)
             gSprites[gTasks[taskId].tPlayerSpriteId].oam.objMode = ST_OAM_OBJ_BLEND;
             NewGameBirchSpeech_StartFadeOutTarget1InTarget2(taskId, 2);
             NewGameBirchSpeech_StartFadePlatformIn(taskId, 1);
-            gTasks[taskId].func = Task_NewGameBirchSpeech_SlidePlatformAwayForRival;
+            gTasks[taskId].func = Task_NewGameBirchSpeech_SlidePlatformAway2; 
+			/*Task_NewGameBirchSpeech_WaitForSpriteFadeInAndTextPrinter 
+			Task_NewGameBirchSpeech_SlidePlatformAway2 
+			Task_NewGameBirchSpeech_SlidePlatformAwayForRival; //The rival but I don't want that.
+			*/
             break;
         case -1:
         case 1:
@@ -2069,7 +2091,7 @@ static void SpriteCB_MovePlayerDownWhileShrinking(struct Sprite *sprite)
 
 static u8 NewGameBirchSpeech_CreateLotadSprite(u8 x, u8 y)
 {
-    return CreateMonPicSprite_Affine(SPECIES_EEVEE, SHINY_ODDS, 0, MON_PIC_AFFINE_FRONT, x, y, 14, TAG_NONE);
+    return CreateMonPicSprite_Affine(SPECIES_CLEFAIRY, SHINY_ODDS, 0, MON_PIC_AFFINE_FRONT, x, y, 14, TAG_NONE);
 }
 
 static void AddBirchSpeechObjects(u8 taskId)
@@ -2089,7 +2111,7 @@ static void AddBirchSpeechObjects(u8 taskId)
     gSprites[eeveeSpriteId].oam.priority = 0;
     gSprites[eeveeSpriteId].invisible = TRUE;
     gTasks[taskId].tEeveeSpriteId = eeveeSpriteId;
-    redSpriteId = CreateTrainerSprite(FacilityClassToPicIndex(FACILITY_CLASS_RED), 120, 60, 0, &gDecompressionBuffer[0]);
+    redSpriteId = CreateTrainerSprite(FacilityClassToPicIndex(FACILITY_CLASS_KRIS), 120, 60, 0, &gDecompressionBuffer[0]);
     gSprites[redSpriteId].callback = SpriteCB_Null;
     gSprites[redSpriteId].invisible = TRUE;
     gSprites[redSpriteId].oam.priority = 0;
