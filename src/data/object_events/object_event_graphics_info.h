@@ -231,7 +231,22 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_KrisUnderwater = {
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_KrisFieldMove = {TAG_NONE, OBJ_EVENT_PAL_TAG_KRIS, OBJ_EVENT_PAL_TAG_BRIDGE_REFLECTION, 512, 32, 32, 0, SHADOW_SIZE_M, FALSE, FALSE, TRACKS_FOOT, &gObjectEventBaseOam_32x32, sOamTables_32x32, sAnimTable_FieldMove, sPicTable_KrisFieldMove, gDummySpriteAffineAnimTable};
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_KrisFishing = {TAG_NONE, OBJ_EVENT_PAL_TAG_KRIS, OBJ_EVENT_PAL_TAG_BRIDGE_REFLECTION, 512, 32, 32, 0, SHADOW_SIZE_M, FALSE, FALSE, TRACKS_FOOT, &gObjectEventBaseOam_32x32, sOamTables_32x32, sAnimTable_Fishing, sPicTable_KrisFishing, gDummySpriteAffineAnimTable};
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_KrisWatering = {TAG_NONE, OBJ_EVENT_PAL_TAG_KRIS, OBJ_EVENT_PAL_TAG_BRIDGE_REFLECTION, 512, 32, 32, 0, SHADOW_SIZE_M, FALSE, FALSE, TRACKS_FOOT, &gObjectEventBaseOam_32x32, sOamTables_32x32, sAnimTable_Standard, sPicTable_KrisWatering, gDummySpriteAffineAnimTable};
-const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_KrisDecorating = {TAG_NONE, OBJ_EVENT_PAL_TAG_KRIS, OBJ_EVENT_PAL_TAG_BRIDGE_REFLECTION, 512, 32, 32, 10, SHADOW_SIZE_M, TRUE, FALSE, TRACKS_FOOT, &gObjectEventBaseOam_32x32, sOamTables_32x32, sAnimTable_Inanimate, sPicTable_KrisDecorating, gDummySpriteAffineAnimTable};
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_KrisDecorating = {
+    TAG_NONE, OBJ_EVENT_PAL_TAG_KRIS, 
+    OBJ_EVENT_PAL_TAG_BRIDGE_REFLECTION, 
+    512, 
+    16, 
+    32, 
+    10, 
+    SHADOW_SIZE_M, 
+    TRUE, FALSE, 
+    TRACKS_FOOT, 
+    &gObjectEventBaseOam_16x32, 
+    sOamTables_16x32, 
+    sAnimTable_Inanimate, 
+    sPicTable_KrisDecorating, 
+    gDummySpriteAffineAnimTable
+};
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_LucasNormal = {TAG_NONE, OBJ_EVENT_PAL_TAG_LUCAS, OBJ_EVENT_PAL_TAG_BRIDGE_REFLECTION, 512, 32, 32, 0, SHADOW_SIZE_M, FALSE, FALSE, TRACKS_FOOT, &gObjectEventBaseOam_32x32, sOamTables_32x32, sAnimTable_BrendanMayNormal, sPicTable_LucasNormal, gDummySpriteAffineAnimTable};
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_LucasMachBike = {TAG_NONE, OBJ_EVENT_PAL_TAG_LUCAS, OBJ_EVENT_PAL_TAG_BRIDGE_REFLECTION, 512, 32, 32, 0, SHADOW_SIZE_M, FALSE, FALSE, TRACKS_BIKE_TIRE, &gObjectEventBaseOam_32x32, sOamTables_32x32, sAnimTable_Standard, sPicTable_LucasMachBike, gDummySpriteAffineAnimTable};
