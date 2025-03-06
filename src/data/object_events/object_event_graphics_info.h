@@ -229,7 +229,23 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_KrisAcroBike = {TA
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_KrisSurfing = {TAG_NONE, OBJ_EVENT_PAL_TAG_KRIS, OBJ_EVENT_PAL_TAG_NONE, 512, 32, 32, 0, SHADOW_SIZE_M, FALSE, TRUE, TRACKS_FOOT, &gObjectEventBaseOam_32x32, sOamTables_32x32, sAnimTable_Surfing, sPicTable_KrisSurfing, gDummySpriteAffineAnimTable};
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_KrisUnderwater = {TAG_NONE, OBJ_EVENT_PAL_TAG_PLAYER_UNDERWATER, OBJ_EVENT_PAL_TAG_NONE, 512, 32, 32, 0, SHADOW_SIZE_M, FALSE, TRUE, TRACKS_FOOT, &gObjectEventBaseOam_32x32, sOamTables_32x32, sAnimTable_Standard, sPicTable_KrisUnderwater, gDummySpriteAffineAnimTable};
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_KrisFieldMove = {TAG_NONE, OBJ_EVENT_PAL_TAG_KRIS, OBJ_EVENT_PAL_TAG_BRIDGE_REFLECTION, 512, 32, 32, 0, SHADOW_SIZE_M, FALSE, FALSE, TRACKS_FOOT, &gObjectEventBaseOam_32x32, sOamTables_32x32, sAnimTable_FieldMove, sPicTable_KrisFieldMove, gDummySpriteAffineAnimTable};
-const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_KrisFishing = {TAG_NONE, OBJ_EVENT_PAL_TAG_KRIS, OBJ_EVENT_PAL_TAG_BRIDGE_REFLECTION, 512, 32, 32, 0, SHADOW_SIZE_M, FALSE, FALSE, TRACKS_FOOT, &gObjectEventBaseOam_32x32, sOamTables_32x32, sAnimTable_Fishing, sPicTable_KrisFishing, gDummySpriteAffineAnimTable};
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_KrisFishing = {
+    TAG_NONE, 
+    OBJ_EVENT_PAL_TAG_KRIS, 
+    OBJ_EVENT_PAL_TAG_BRIDGE_REFLECTION, 
+    512, 
+    32, 
+    32, 
+    0, 
+    SHADOW_SIZE_M, 
+    FALSE, FALSE, 
+    TRACKS_FOOT, 
+    &gObjectEventBaseOam_32x32, 
+    sOamTables_32x32, 
+    sAnimTable_Fishing, 
+    sPicTable_KrisFishing, 
+    gDummySpriteAffineAnimTable
+};
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_KrisWatering = {TAG_NONE, OBJ_EVENT_PAL_TAG_KRIS, OBJ_EVENT_PAL_TAG_BRIDGE_REFLECTION, 512, 32, 32, 0, SHADOW_SIZE_M, FALSE, FALSE, TRACKS_FOOT, &gObjectEventBaseOam_32x32, sOamTables_32x32, sAnimTable_Standard, sPicTable_KrisWatering, gDummySpriteAffineAnimTable};
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_KrisDecorating = {
     TAG_NONE, OBJ_EVENT_PAL_TAG_KRIS, 
