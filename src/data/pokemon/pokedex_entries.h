@@ -1740,6 +1740,18 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 4,
     },
 
+    [NATIONAL_DEX_PIKACHU_PARTNER] =
+    {
+        .categoryName = _("Big Eater"),
+        .height = 6,
+        .weight = 1050,
+        .description = gMunchlaxPokedexText,
+        .pokemonScale = 356,
+        .pokemonOffset = 17,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+    },
+
     [NATIONAL_DEX_SNORLAX] =
     {
         .categoryName = _("Sleeping"),

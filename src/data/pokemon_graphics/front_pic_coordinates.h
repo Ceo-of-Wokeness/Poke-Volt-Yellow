@@ -136,8 +136,8 @@ const struct MonCoords gMonFrontPicCoords[] =
     },
     [SPECIES_PIKACHU_PARTNER] =
     {
-        .size = MON_COORDS_SIZE(48, 56),
-        .y_offset = 9,
+        .size = MON_COORDS_SIZE(56, 48),
+        .y_offset = 10,
     },
     [SPECIES_RAICHU] =
     {

@@ -856,6 +856,12 @@ const u8 gAerodactylPokedexText[] = _(
     "extracted from amber. It is imagined to\n"
     "have been the king of the skies.");
 
+const u8 gMunchlaxPokedexText[] = _(
+    "When it finds something that looks like\n"
+    "it might be edible, it goes right ahead\n"
+    "and swallows it whole. That's why it gets\n"
+    "fatter day by day.");
+
 const u8 gSnorlaxPokedexText[] = _(
     "Snorlax's typical day consists of nothing\n"
     "more than eating and sleeping. It is such\n"

@@ -290,6 +290,14 @@ static const union AnimCmd sAnim_PIKACHU_2[] =
     ANIMCMD_END,
 };
 
+static const union AnimCmd sAnim_MUNCHLAX_1[] =
+{
+    ANIMCMD_FRAME(0, 30),
+    ANIMCMD_FRAME(1, 30),
+    ANIMCMD_FRAME(0, 1),
+    ANIMCMD_END,
+};
+
 static const union AnimCmd sAnim_RAICHU_1[] =
 {
     ANIMCMD_FRAME(0, 15),
@@ -5035,8 +5043,7 @@ static const union AnimCmd *const sAnims_PIKACHU[] ={
 
 static const union AnimCmd *const sAnims_PIKACHU_PARTNER[] ={
     sAnim_GeneralFrame0,
-    sAnim_PIKACHU_1,
-    sAnim_PIKACHU_2,
+    sAnim_MUNCHLAX_1,
 };
 
 static const union AnimCmd *const sAnims_RAICHU[] ={
