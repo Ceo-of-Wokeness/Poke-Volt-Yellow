@@ -40,7 +40,7 @@ const struct ObjectEventGraphicsInfo gPokemonObjectGraphics[] = {
     &gObjectEventBaseOam_32x32, 
     sOamTables_32x32, 
     sAnimTable_Following, 
-    sPicTable_Pikachu, 
+    sPicTable_Munchlax, 
     gDummySpriteAffineAnimTable
   },
   [SPECIES_RAICHU] = {0xFFFF, OBJ_EVENT_PAL_TAG_DYNAMIC, OBJ_EVENT_PAL_TAG_NONE, 512, 32, 32, 2, SHADOW_SIZE_M, FALSE, FALSE, TRACKS_FOOT, &gObjectEventBaseOam_32x32, sOamTables_32x32, sAnimTable_Following, sPicTable_Raichu, gDummySpriteAffineAnimTable},

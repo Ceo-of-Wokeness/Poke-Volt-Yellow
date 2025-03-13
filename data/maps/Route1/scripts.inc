@@ -118,7 +118,7 @@ Route1_EventScript_PikachuEncounter::
 	msgbox Route1_Text_ThatWasClose, MSGBOX_DEFAULT
 	setvar VAR_ADVENTURE_BEGINS, 2
 	fadescreen FADE_TO_BLACK
-	setflag FLAG_HIDE_MAP_NAME_POPUP
+	@@setflag FLAG_HIDE_MAP_NAME_POPUP
 	clearflag FLAG_HIDE_OAK_IN_LAB
 	setvar VAR_OAK_LAB_STATE, 1
 	warp MAP_PALLET_TOWN_PROFESSOR_OAKS_LAB, 6, 5

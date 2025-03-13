@@ -26,6 +26,7 @@ const u32 gObjectEventPic_Fearow[] = INCBIN_U32("graphics/object_events/pics/pok
 const u32 gObjectEventPic_Ekans[] = INCBIN_U32("graphics/object_events/pics/pokemon/ekans.4bpp");
 const u32 gObjectEventPic_Arbok[] = INCBIN_U32("graphics/object_events/pics/pokemon/arbok.4bpp");
 const u32 gObjectEventPic_Pikachu[] = INCBIN_U32("graphics/object_events/pics/pokemon/pikachu.4bpp");
+const u32 gObjectEventPic_Munchlax[] = INCBIN_U32("graphics/object_events/pics/pokemon/munchlax.4bpp");
 const u32 gObjectEventPic_Raichu[] = INCBIN_U32("graphics/object_events/pics/pokemon/raichu.4bpp");
 const u32 gObjectEventPic_Sandshrew[] = INCBIN_U32("graphics/object_events/pics/pokemon/sandshrew.4bpp");
 const u32 gObjectEventPic_Sandslash[] = INCBIN_U32("graphics/object_events/pics/pokemon/sandslash.4bpp");

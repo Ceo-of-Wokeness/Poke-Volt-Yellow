@@ -3532,6 +3532,14 @@ static const struct SpriteFrameImage sPicTable_Aerodactyl[] = {
     overworld_frame(gObjectEventPic_Aerodactyl, 4, 4, 4),
     overworld_frame(gObjectEventPic_Aerodactyl, 4, 4, 5),
 };
+static const struct SpriteFrameImage sPicTable_Munchlax[] = {
+    overworld_frame(gObjectEventPic_Munchlax, 4, 4, 0),
+    overworld_frame(gObjectEventPic_Munchlax, 4, 4, 1),
+    overworld_frame(gObjectEventPic_Munchlax, 4, 4, 2),
+    overworld_frame(gObjectEventPic_Munchlax, 4, 4, 3),
+    overworld_frame(gObjectEventPic_Munchlax, 4, 4, 4),
+    overworld_frame(gObjectEventPic_Munchlax, 4, 4, 5),
+};
 static const struct SpriteFrameImage sPicTable_Snorlax[] = {
     overworld_frame(gObjectEventPic_Snorlax, 4, 4, 0),
     overworld_frame(gObjectEventPic_Snorlax, 4, 4, 1),
