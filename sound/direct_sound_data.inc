@@ -1941,7 +1941,7 @@ Cry_Chimecho::
 
 	.align 2
 Cry_PikachuPartner::
-	.incbin "sound/direct_sound_samples/cries/pikachu.bin"
+	.incbin "sound/direct_sound_samples/cries/munchlax.bin"
 
 	.align 2
 Cry_VenusaurMega::

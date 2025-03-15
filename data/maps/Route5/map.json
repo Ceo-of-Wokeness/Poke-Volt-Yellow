@@ -14,14 +14,14 @@
   "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
   "connections": [
     {
-      "map": "MAP_SAFFRON_CITY",
+      "direction": "down",
       "offset": -10,
-      "direction": "down"
+      "map": "MAP_SAFFRON_CITY"
     },
     {
-      "map": "MAP_CERULEAN_CITY",
+      "direction": "up",
       "offset": 0,
-      "direction": "up"
+      "map": "MAP_CERULEAN_CITY"
     }
   ],
   "object_events": [
@@ -37,7 +37,7 @@
       "trainer_sight_or_berry_tree_id": "0",
       "script": "Route5_EventScript_DaycareWoman",
       "flag": "0",
-      "in_connection": false
+      "in_connection": ""
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_NIDORAN_M",
@@ -51,7 +51,7 @@
       "trainer_sight_or_berry_tree_id": "0",
       "script": "NULL",
       "flag": "0",
-      "in_connection": false
+      "in_connection": ""
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_PIKACHU",
@@ -65,7 +65,7 @@
       "trainer_sight_or_berry_tree_id": "0",
       "script": "NULL",
       "flag": "0",
-      "in_connection": false
+      "in_connection": ""
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_BREEDER_M",
@@ -79,7 +79,7 @@
       "trainer_sight_or_berry_tree_id": "0",
       "script": "Route5_EventScript_BerryGuy",
       "flag": "0",
-      "in_connection": false
+      "in_connection": ""
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_BERRY_TREE",
@@ -93,7 +93,7 @@
       "trainer_sight_or_berry_tree_id": "BERRY_TREE_ROUTE_5_TAMATO",
       "script": "BerryTreeScript",
       "flag": "0",
-      "in_connection": false
+      "in_connection": ""
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_BERRY_TREE",
@@ -107,7 +107,7 @@
       "trainer_sight_or_berry_tree_id": "BERRY_TREE_ROUTE_5_GREPA",
       "script": "BerryTreeScript",
       "flag": "0",
-      "in_connection": false
+      "in_connection": ""
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_BERRY_TREE",
@@ -121,7 +121,7 @@
       "trainer_sight_or_berry_tree_id": "BERRY_TREE_ROUTE_5_QUALOT",
       "script": "BerryTreeScript",
       "flag": "0",
-      "in_connection": false
+      "in_connection": ""
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_BERRY_TREE",
@@ -135,7 +135,7 @@
       "trainer_sight_or_berry_tree_id": "BERRY_TREE_ROUTE_5_HONDEW",
       "script": "BerryTreeScript",
       "flag": "0",
-      "in_connection": false
+      "in_connection": ""
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_BERRY_TREE",
@@ -149,7 +149,7 @@
       "trainer_sight_or_berry_tree_id": "BERRY_TREE_ROUTE_5_KELPSY",
       "script": "BerryTreeScript",
       "flag": "0",
-      "in_connection": false
+      "in_connection": ""
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_BERRY_TREE",
@@ -163,7 +163,7 @@
       "trainer_sight_or_berry_tree_id": "BERRY_TREE_ROUTE_5_POMEG",
       "script": "BerryTreeScript",
       "flag": "0",
-      "in_connection": false
+      "in_connection": ""
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ROCKET_MEMBER_M",
@@ -177,7 +177,7 @@
       "trainer_sight_or_berry_tree_id": "1",
       "script": "Route5_RocketFugitive",
       "flag": "FLAG_ROCKET_FUGITIVE_CERULEAN_3",
-      "in_connection": false
+      "in_connection": ""
     }
   ],
   "warp_events": [
@@ -186,28 +186,28 @@
       "y": 31,
       "elevation": 0,
       "dest_map": "MAP_UNDERGROUND_PATH_NORTH_ENTRANCE",
-      "dest_warp_id": "1"
+      "dest_warp_id": 1
     },
     {
       "x": 23,
       "y": 25,
       "elevation": 0,
       "dest_map": "MAP_ROUTE5_POKEMON_DAY_CARE",
-      "dest_warp_id": "0"
+      "dest_warp_id": 0
     },
     {
       "x": 24,
       "y": 32,
       "elevation": 0,
       "dest_map": "MAP_ROUTE5_SOUTH_ENTRANCE",
-      "dest_warp_id": "1"
+      "dest_warp_id": 0
     },
     {
       "x": 25,
       "y": 32,
       "elevation": 0,
       "dest_map": "MAP_ROUTE5_SOUTH_ENTRANCE",
-      "dest_warp_id": "1"
+      "dest_warp_id": 0
     }
   ],
   "coord_events": [

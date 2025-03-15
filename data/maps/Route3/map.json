@@ -14,14 +14,14 @@
   "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
   "connections": [
     {
-      "map": "MAP_ROUTE4",
+      "direction": "up",
       "offset": 60,
-      "direction": "up"
+      "map": "MAP_ROUTE4"
     },
     {
-      "map": "MAP_PEWTER_CITY",
+      "direction": "left",
       "offset": -10,
-      "direction": "left"
+      "map": "MAP_PEWTER_CITY"
     }
   ],
   "object_events": [
@@ -37,7 +37,7 @@
       "trainer_sight_or_berry_tree_id": "0",
       "script": "Route3_EventScript_Youngster",
       "flag": "0",
-      "in_connection": false
+      "in_connection": ""
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_LASS",
@@ -51,7 +51,7 @@
       "trainer_sight_or_berry_tree_id": "5",
       "script": "Route3_EventScript_Janice",
       "flag": "0",
-      "in_connection": false
+      "in_connection": ""
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_BUG_CATCHER",
@@ -65,7 +65,7 @@
       "trainer_sight_or_berry_tree_id": "3",
       "script": "Route3_EventScript_Colton",
       "flag": "0",
-      "in_connection": false
+      "in_connection": ""
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_YOUNGSTER",
@@ -79,7 +79,7 @@
       "trainer_sight_or_berry_tree_id": "2",
       "script": "Route3_EventScript_Ben",
       "flag": "0",
-      "in_connection": false
+      "in_connection": ""
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_BUG_CATCHER",
@@ -93,7 +93,7 @@
       "trainer_sight_or_berry_tree_id": "2",
       "script": "Route3_EventScript_Greg",
       "flag": "0",
-      "in_connection": false
+      "in_connection": ""
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_LASS",
@@ -107,7 +107,7 @@
       "trainer_sight_or_berry_tree_id": "5",
       "script": "Route3_EventScript_Sally",
       "flag": "0",
-      "in_connection": false
+      "in_connection": ""
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_BUG_CATCHER",
@@ -121,7 +121,7 @@
       "trainer_sight_or_berry_tree_id": "4",
       "script": "Route3_EventScript_James",
       "flag": "0",
-      "in_connection": false
+      "in_connection": ""
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_YOUNGSTER",
@@ -135,7 +135,7 @@
       "trainer_sight_or_berry_tree_id": "5",
       "script": "Route3_EventScript_Calvin",
       "flag": "0",
-      "in_connection": false
+      "in_connection": ""
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_LASS",
@@ -149,7 +149,7 @@
       "trainer_sight_or_berry_tree_id": "3",
       "script": "Route3_EventScript_Robin",
       "flag": "0",
-      "in_connection": false
+      "in_connection": ""
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_BERRY_TREE",
@@ -163,7 +163,7 @@
       "trainer_sight_or_berry_tree_id": "BERRY_TREE_ROUTE_3_PERSIM",
       "script": "BerryTreeScript",
       "flag": "0",
-      "in_connection": false
+      "in_connection": ""
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_BERRY_TREE",
@@ -177,7 +177,7 @@
       "trainer_sight_or_berry_tree_id": "BERRY_TREE_ROUTE_3_ORAN",
       "script": "BerryTreeScript",
       "flag": "0",
-      "in_connection": false
+      "in_connection": ""
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_BERRY_TREE",
@@ -191,7 +191,7 @@
       "trainer_sight_or_berry_tree_id": "BERRY_TREE_ROUTE_3_PECHA",
       "script": "BerryTreeScript",
       "flag": "0",
-      "in_connection": false
+      "in_connection": ""
     }
   ],
   "warp_events": [
