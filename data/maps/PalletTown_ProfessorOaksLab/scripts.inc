@@ -255,7 +255,7 @@ PalletTown_ProfessorOaksLab_EventScript_GetPartnerPikachu::
 	playse SE_BALL_OPEN
 	clearflag FLAG_HIDE_OAK_LAB_PIKACHU
 	addobject LOCALID_PIKACHU
-	playmoncry SPECIES_PIKACHU, CRY_MODE_NORMAL
+	playmoncry SPECIES_MUNCHLAX, CRY_MODE_NORMAL
 	waitmoncry
 	turnobject LOCALID_OAK, DIR_WEST
 	applymovement LOCALID_OAK, Common_Movement_ExclamationMark
