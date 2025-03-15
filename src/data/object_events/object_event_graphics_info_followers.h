@@ -25,7 +25,7 @@ const struct ObjectEventGraphicsInfo gPokemonObjectGraphics[] = {
   [SPECIES_EKANS] = {0xFFFF, OBJ_EVENT_PAL_TAG_DYNAMIC, OBJ_EVENT_PAL_TAG_NONE, 512, 32, 32, 2, SHADOW_SIZE_M, FALSE, FALSE, TRACKS_FOOT, &gObjectEventBaseOam_32x32, sOamTables_32x32, sAnimTable_Following, sPicTable_Ekans, gDummySpriteAffineAnimTable},
   [SPECIES_ARBOK] = {0xFFFF, OBJ_EVENT_PAL_TAG_DYNAMIC, OBJ_EVENT_PAL_TAG_NONE, 512, 32, 32, 2, SHADOW_SIZE_M, FALSE, FALSE, TRACKS_FOOT, &gObjectEventBaseOam_32x32, sOamTables_32x32, sAnimTable_Following, sPicTable_Arbok, gDummySpriteAffineAnimTable},
   [SPECIES_PIKACHU] = {0xFFFF, OBJ_EVENT_PAL_TAG_DYNAMIC, OBJ_EVENT_PAL_TAG_NONE, 512, 32, 32, 2, SHADOW_SIZE_M, FALSE, FALSE, TRACKS_FOOT, &gObjectEventBaseOam_32x32, sOamTables_32x32, sAnimTable_Following, sPicTable_Pikachu, gDummySpriteAffineAnimTable},
-  [SPECIES_PIKACHU_PARTNER] = {
+  [SPECIES_MUNCHLAX] = {
     0xFFFF, 
     OBJ_EVENT_PAL_TAG_DYNAMIC, 
     OBJ_EVENT_PAL_TAG_NONE, 

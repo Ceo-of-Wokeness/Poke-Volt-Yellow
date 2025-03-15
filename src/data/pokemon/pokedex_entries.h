@@ -312,7 +312,7 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_PIKACHU_PARTNER] =
+    [NATIONAL_DEX_MUNCHLAX] =
     {
         .categoryName = _("Partner"),
         .height = 4,
@@ -1740,7 +1740,7 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 4,
     },
 
-    [NATIONAL_DEX_PIKACHU_PARTNER] =
+    [NATIONAL_DEX_MUNCHLAX] =
     {
         .categoryName = _("Big Eater"),
         .height = 6,

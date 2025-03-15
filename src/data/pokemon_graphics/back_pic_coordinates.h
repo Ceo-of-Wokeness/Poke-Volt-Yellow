@@ -134,7 +134,7 @@ const struct MonCoords gMonBackPicCoords[] =
         .size = MON_COORDS_SIZE(56, 56),
         .y_offset = 7,
     },
-    [SPECIES_PIKACHU_PARTNER] =
+    [SPECIES_MUNCHLAX] =
     {
         .size = MON_COORDS_SIZE(48, 48),
         .y_offset = 7,

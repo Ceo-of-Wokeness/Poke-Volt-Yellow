@@ -2176,7 +2176,7 @@ struct Pokemon * GetFirstLiveMon(void) { // Return address of first conscious pa
     }
     else
     {
-        if (gPlayerParty[i].hp > 0 && (GetMonData(&gPlayerParty[i], MON_DATA_SPECIES, NULL) == SPECIES_PIKACHU_PARTNER) && !(gPlayerParty[i].box.isEgg || gPlayerParty[i].box.isBadEgg))
+        if (gPlayerParty[i].hp > 0 && (GetMonData(&gPlayerParty[i], MON_DATA_SPECIES, NULL) == SPECIES_MUNCHLAX) && !(gPlayerParty[i].box.isEgg || gPlayerParty[i].box.isBadEgg))
             return &gPlayerParty[i];
     }
   }

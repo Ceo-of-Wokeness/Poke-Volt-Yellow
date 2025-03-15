@@ -6568,7 +6568,7 @@ static void InitCanReleaseMonVars(void)
     }
     else
     {
-        if (GetMonData(&sStorage->tempMon, MON_DATA_SPECIES, NULL) == SPECIES_PIKACHU_PARTNER)
+        if (GetMonData(&sStorage->tempMon, MON_DATA_SPECIES, NULL) == SPECIES_MUNCHLAX)
         {
             sStorage->releaseStatusResolved = TRUE;
             sStorage->canReleaseMon = FALSE; 

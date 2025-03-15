@@ -2854,13 +2854,13 @@ extern const u32 gMonStillFrontPic_UnownQuestionMark[];
 extern const u32 gMonBackPic_UnownQuestionMark[];
 extern const u8 gMonIcon_UnownQuestionMark[];
 
-extern const u32 gMonFrontPic_PikachuPartner[];
-extern const u32 gMonPalette_PikachuPartner[];
-extern const u32 gMonBackPic_PikachuPartner[];
-extern const u32 gMonShinyPalette_PikachuPartner[];
-extern const u8 gMonIcon_PikachuPartner[];
-extern const u8 gMonFootprint_PikachuPartner[];
-extern const u32 gMonStillFrontPic_PikachuPartner[];
+extern const u32 gMonFrontPic_Munchlax[];
+extern const u32 gMonPalette_Munchlax[];
+extern const u32 gMonBackPic_Munchlax[];
+extern const u32 gMonShinyPalette_Munchlax[];
+extern const u8 gMonIcon_Munchlax[];
+extern const u8 gMonFootprint_Munchlax[];
+extern const u32 gMonStillFrontPic_Munchlax[];
 
 extern const u32 gMonFrontPic_CircledQuestionMark[];
 extern const u32 gMonBackPic_CircledQuestionMark[];

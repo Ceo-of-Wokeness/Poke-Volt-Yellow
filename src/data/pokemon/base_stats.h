@@ -12440,7 +12440,7 @@ const struct BaseStats gBaseStats[] =
         .noFlip = FALSE,
     },
 
-[SPECIES_PIKACHU_PARTNER] =
+[SPECIES_MUNCHLAX] =
     {
         .baseHP        = 135,
         .baseAttack    = 85,

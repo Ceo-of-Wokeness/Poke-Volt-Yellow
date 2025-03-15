@@ -269,7 +269,7 @@ PalletTown_ProfessorOaksLab_EventScript_GetPartnerPikachu::
 	applymovement LOCALID_PIKACHU, Common_Movement_Heart
 	waitmovement 9
 	waitse
-	givemon SPECIES_PIKACHU_PARTNER, 5
+	givemon SPECIES_MUNCHLAX, 5
 	playfanfare MUS_OBTAIN_ITEM
 	msgbox PalletTown_ProfessorOaksLab_Text_PikachuJoinedTeam, MSGBOX_DEFAULT
 	waitfanfare

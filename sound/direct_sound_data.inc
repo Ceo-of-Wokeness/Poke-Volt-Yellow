@@ -1940,7 +1940,7 @@ Cry_Chimecho::
 	.incbin "sound/direct_sound_samples/cries/chimecho.bin"
 
 	.align 2
-Cry_PikachuPartner::
+Cry_Munchlax::
 	.incbin "sound/direct_sound_samples/cries/munchlax.bin"
 
 	.align 2

@@ -2439,7 +2439,7 @@ static bool8 ShouldDoSlideInAnim(void) {
 
     if (!followerObj || followerObj->invisible)
         return FALSE;
-    if (GetMonData(&gPlayerParty[GetLeadMonIndex()], MON_DATA_SPECIES) != SPECIES_PIKACHU_PARTNER)
+    if (GetMonData(&gPlayerParty[GetLeadMonIndex()], MON_DATA_SPECIES) != SPECIES_MUNCHLAX)
         return FALSE;
     if (gBattleTypeFlags & (
         BATTLE_TYPE_LINK | BATTLE_TYPE_DOUBLE | BATTLE_TYPE_FRONTIER | BATTLE_TYPE_FIRST_BATTLE |
