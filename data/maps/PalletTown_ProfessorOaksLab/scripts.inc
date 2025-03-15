@@ -269,7 +269,8 @@ PalletTown_ProfessorOaksLab_EventScript_GetPartnerPikachu::
 	applymovement LOCALID_PIKACHU, Common_Movement_Heart
 	waitmovement 9
 	waitse
-	givemon SPECIES_MUNCHLAX, 5
+	@@givemon SPECIES_MUNCHLAX, 5
+	givecustommon SPECIES_MUNCHLAX, 5, ITEM_LEFTOVERS, ITEM_POKE_BALL, NATURE_LAX, 1, 10, 10, 10, 10, 10, 10, 31, 31, 31, 31, 31, 31
 	playfanfare MUS_OBTAIN_ITEM
 	msgbox PalletTown_ProfessorOaksLab_Text_PikachuJoinedTeam, MSGBOX_DEFAULT
 	waitfanfare
