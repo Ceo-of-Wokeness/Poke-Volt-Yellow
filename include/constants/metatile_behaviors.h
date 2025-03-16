@@ -236,12 +236,13 @@
 #define MB_WIRELESS_BOX_RESULTS 0xE8
 #define MB_TRAINER_HILL_TIMER 0xE9
 #define MB_SKY_PILLAR_CLOSED_DOOR 0xEA
+#define MB_ROCK_CLIMB 0xEF
 
-#define MB_VIDEO_GAME 0xEB // TODO: implement this
-#define MB_BURGLARY 0xEC // TODO: implement this
-#define MB_TRAINER_TOWER_MONITOR 0xED // TODO: implement this
-#define MB_CYCLING_ROAD_PULL_DOWN 0xEE // TODO: implement this
-#define MB_CYCLING_ROAD_PULL_DOWN_GRASS 0xEF // TODO: implement this
+//#define MB_VIDEO_GAME 0xEB // TODO: implement this
+//#define MB_BURGLARY 0xEC // TODO: implement this
+//#define MB_TRAINER_TOWER_MONITOR 0xED // TODO: implement this
+//#define MB_CYCLING_ROAD_PULL_DOWN 0xEE // TODO: implement this
+//#define MB_CYCLING_ROAD_PULL_DOWN_GRASS 0xEF // TODO: implement this
 
 #define NUM_METATILE_BEHAVIORS 0xF0
 

@@ -125,14 +125,15 @@ static const u8 sTileBitAttributes[NUM_METATILE_BEHAVIORS] =
     [MB_ISOLATED_HORIZONTAL_RAIL]        = TILE_FLAG_UNUSED,
     [MB_VERTICAL_RAIL]                   = TILE_FLAG_UNUSED,
     [MB_HORIZONTAL_RAIL]                 = TILE_FLAG_UNUSED,
+	[MB_ROCK_CLIMB]                      = TILE_FLAG_UNUSED,
     [MB_STRENGTH_BUTTON]                 = TILE_FLAG_UNUSED,
     [MB_FALL_WARP]                       = TILE_FLAG_UNUSED,
     
-    [MB_VIDEO_GAME] = TILE_FLAG_UNUSED,
-    [MB_BURGLARY] = TILE_FLAG_UNUSED,
-    [MB_TRAINER_TOWER_MONITOR] = TILE_FLAG_UNUSED,
-    [MB_CYCLING_ROAD_PULL_DOWN] = TILE_FLAG_UNUSED,
-    [MB_CYCLING_ROAD_PULL_DOWN_GRASS] = TILE_FLAG_UNUSED,
+    //[MB_VIDEO_GAME] = TILE_FLAG_UNUSED,
+    //[MB_BURGLARY] = TILE_FLAG_UNUSED,
+    //[MB_TRAINER_TOWER_MONITOR] = TILE_FLAG_UNUSED,
+    //[MB_CYCLING_ROAD_PULL_DOWN] = TILE_FLAG_UNUSED,
+    //[MB_CYCLING_ROAD_PULL_DOWN_GRASS] = TILE_FLAG_UNUSED,
 
 };
 
@@ -1418,6 +1419,14 @@ bool8 MetatileBehavior_IsTrainerHillTimer(u8 metatileBehavior)
         return FALSE;
 }
 
+
+bool8 MetatileBehavior_IsRockClimbable(u8 metatileBehavior)
+{
+    if (metatileBehavior == MB_ROCK_CLIMB)
+        return TRUE;
+    else
+        return FALSE;
+}
 
 bool8 MetatileBehavior_IsSpinRight(u8 metatileBehavior)
 {
