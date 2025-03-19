@@ -8225,7 +8225,7 @@
       "id": "LAYOUT_AQUA_HIDEOUT_ENTRANCE",
       "name": "AquaHideoutEntrance_Layout",
       "width": 28,
-      "height": 20,
+      "height": 30,
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_General",
