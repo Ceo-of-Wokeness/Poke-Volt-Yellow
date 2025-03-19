@@ -1037,3 +1037,18 @@ gMetatiles_HallOfFame:: @ 82D415C
 	.align 1
 gMetatileAttributes_HallOfFame:: @ 82D48BC
 	.incbin "data/tilesets/secondary/hall_of_fame/metatile_attributes.bin"
+
+	.align 1
+gMetatiles_aqua_hideout_primary::
+	.incbin "data/tilesets/primary/aqua_hideout_primary/metatiles.bin"
+
+	.align 1
+gMetatileAttributes_aqua_hideout_primary::
+	.incbin "data/tilesets/primary/aqua_hideout_primary/metatile_attributes.bin"
+	.align 1
+gMetatiles_aqua_hideout::
+	.incbin "data/tilesets/secondary/aqua_hideout/metatiles.bin"
+
+	.align 1
+gMetatileAttributes_aqua_hideout::
+	.incbin "data/tilesets/secondary/aqua_hideout/metatile_attributes.bin"

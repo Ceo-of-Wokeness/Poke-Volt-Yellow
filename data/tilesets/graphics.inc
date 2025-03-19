@@ -3086,3 +3086,43 @@ gTilesetPalettes_DepartmentStore::
     .incbin "data/tilesets/secondary/department_store/palettes/13.gbapal"
     .incbin "data/tilesets/secondary/department_store/palettes/14.gbapal"
     .incbin "data/tilesets/secondary/department_store/palettes/15.gbapal"
+
+	.align 2
+gTilesetPalettes_aqua_hideout_primary::
+	.incbin "data/tilesets/primary/aqua_hideout_primary/palettes/00.gbapal"
+	.incbin "data/tilesets/primary/aqua_hideout_primary/palettes/01.gbapal"
+	.incbin "data/tilesets/primary/aqua_hideout_primary/palettes/02.gbapal"
+	.incbin "data/tilesets/primary/aqua_hideout_primary/palettes/03.gbapal"
+	.incbin "data/tilesets/primary/aqua_hideout_primary/palettes/04.gbapal"
+	.incbin "data/tilesets/primary/aqua_hideout_primary/palettes/05.gbapal"
+	.incbin "data/tilesets/primary/aqua_hideout_primary/palettes/06.gbapal"
+	.incbin "data/tilesets/primary/aqua_hideout_primary/palettes/07.gbapal"
+	.incbin "data/tilesets/primary/aqua_hideout_primary/palettes/08.gbapal"
+	.incbin "data/tilesets/primary/aqua_hideout_primary/palettes/09.gbapal"
+	.incbin "data/tilesets/primary/aqua_hideout_primary/palettes/10.gbapal"
+	.incbin "data/tilesets/primary/aqua_hideout_primary/palettes/11.gbapal"
+	.incbin "data/tilesets/primary/aqua_hideout_primary/palettes/12.gbapal"
+
+	.align 2
+gTilesetTiles_aqua_hideout_primary::
+	.incbin "data/tilesets/primary/aqua_hideout_primary/tiles.4bpp.lz"
+
+	.align 2
+gTilesetPalettes_aqua_hideout::
+	.incbin "data/tilesets/secondary/aqua_hideout/palettes/00.gbapal"
+	.incbin "data/tilesets/secondary/aqua_hideout/palettes/01.gbapal"
+	.incbin "data/tilesets/secondary/aqua_hideout/palettes/02.gbapal"
+	.incbin "data/tilesets/secondary/aqua_hideout/palettes/03.gbapal"
+	.incbin "data/tilesets/secondary/aqua_hideout/palettes/04.gbapal"
+	.incbin "data/tilesets/secondary/aqua_hideout/palettes/05.gbapal"
+	.incbin "data/tilesets/secondary/aqua_hideout/palettes/06.gbapal"
+	.incbin "data/tilesets/secondary/aqua_hideout/palettes/07.gbapal"
+	.incbin "data/tilesets/secondary/aqua_hideout/palettes/08.gbapal"
+	.incbin "data/tilesets/secondary/aqua_hideout/palettes/09.gbapal"
+	.incbin "data/tilesets/secondary/aqua_hideout/palettes/10.gbapal"
+	.incbin "data/tilesets/secondary/aqua_hideout/palettes/11.gbapal"
+	.incbin "data/tilesets/secondary/aqua_hideout/palettes/12.gbapal"
+
+	.align 2
+gTilesetTiles_aqua_hideout::
+	.incbin "data/tilesets/secondary/aqua_hideout/tiles.4bpp.lz"

@@ -14,14 +14,14 @@
   "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
   "connections": [
     {
-      "map": "MAP_ROUTE20",
+      "direction": "left",
       "offset": 40,
-      "direction": "left"
+      "map": "MAP_ROUTE20"
     },
     {
-      "map": "MAP_FUCHSIA_CITY",
+      "direction": "up",
       "offset": -12,
-      "direction": "up"
+      "map": "MAP_FUCHSIA_CITY"
     }
   ],
   "object_events": [
@@ -37,7 +37,7 @@
       "trainer_sight_or_berry_tree_id": "3",
       "script": "Route19_EventScript_Richie",
       "flag": "0",
-      "in_connection": false
+      "in_connection": ""
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_TUBER_F",
@@ -51,7 +51,7 @@
       "trainer_sight_or_berry_tree_id": "3",
       "script": "Route19_EventScript_Lizzie",
       "flag": "0",
-      "in_connection": false
+      "in_connection": ""
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_SWIMMER_M",
@@ -65,7 +65,7 @@
       "trainer_sight_or_berry_tree_id": "3",
       "script": "Route19_EventScript_Tony",
       "flag": "0",
-      "in_connection": false
+      "in_connection": ""
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_SWIMMER_M",
@@ -79,7 +79,7 @@
       "trainer_sight_or_berry_tree_id": "6",
       "script": "Route19_EventScript_David",
       "flag": "0",
-      "in_connection": false
+      "in_connection": ""
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_SWIMMER_M",
@@ -93,7 +93,7 @@
       "trainer_sight_or_berry_tree_id": "1",
       "script": "Route19_EventScript_Douglas",
       "flag": "0",
-      "in_connection": false
+      "in_connection": ""
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_SWIMMER_M",
@@ -107,7 +107,7 @@
       "trainer_sight_or_berry_tree_id": "1",
       "script": "Route19_EventScript_Matthew",
       "flag": "0",
-      "in_connection": false
+      "in_connection": ""
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_SWIMMER_F",
@@ -121,7 +121,7 @@
       "trainer_sight_or_berry_tree_id": "1",
       "script": "Route19_EventScript_Lia",
       "flag": "0",
-      "in_connection": false
+      "in_connection": ""
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_TUBER_M_SWIMMING",
@@ -135,7 +135,7 @@
       "trainer_sight_or_berry_tree_id": "1",
       "script": "Route19_EventScript_Luc",
       "flag": "0",
-      "in_connection": false
+      "in_connection": ""
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_SWIMMER_F",
@@ -149,7 +149,7 @@
       "trainer_sight_or_berry_tree_id": "1",
       "script": "Route19_EventScript_Anya",
       "flag": "0",
-      "in_connection": false
+      "in_connection": ""
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_SWIMMER_M",
@@ -163,7 +163,7 @@
       "trainer_sight_or_berry_tree_id": "1",
       "script": "Route19_EventScript_Axle",
       "flag": "0",
-      "in_connection": false
+      "in_connection": ""
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_SWIMMER_F",
@@ -177,7 +177,7 @@
       "trainer_sight_or_berry_tree_id": "1",
       "script": "Route19_EventScript_Connie",
       "flag": "0",
-      "in_connection": false
+      "in_connection": ""
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_SWIMMER_F",
@@ -191,7 +191,7 @@
       "trainer_sight_or_berry_tree_id": "1",
       "script": "Route19_EventScript_Alice",
       "flag": "0",
-      "in_connection": false
+      "in_connection": ""
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ROCKET_MEMBER_M",
@@ -205,11 +205,17 @@
       "trainer_sight_or_berry_tree_id": "0",
       "script": "Route19_RocketFugitive",
       "flag": "FLAG_ROCKET_FUGITIVE_FUCHSIA_3",
-      "in_connection": false
+      "in_connection": ""
     }
   ],
   "warp_events": [
-
+    {
+      "x": 20,
+      "y": 8,
+      "elevation": 0,
+      "dest_map": "MAP_AQUA_HIDEOUT_ENTRANCE",
+      "dest_warp_id": 0
+    }
   ],
   "coord_events": [
 

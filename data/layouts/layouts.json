@@ -8220,6 +8220,18 @@
       "secondary_tileset": "gTileset_GenericBuilding1",
       "border_filepath": "data/layouts/CinnabarIsland_House/border.bin",
       "blockdata_filepath": "data/layouts/CinnabarIsland_House/map.bin"
+    },
+    {
+      "id": "LAYOUT_AQUA_HIDEOUT_ENTRANCE",
+      "name": "AquaHideoutEntrance_Layout",
+      "width": 28,
+      "height": 20,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_aqua_hideout",
+      "border_filepath": "data/layouts/AquaHideoutEntrance/border.bin",
+      "blockdata_filepath": "data/layouts/AquaHideoutEntrance/map.bin"
     }
   ]
 }

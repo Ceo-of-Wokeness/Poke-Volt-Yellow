@@ -1479,3 +1479,25 @@ gTileset_HallOfFame::
 	.4byte gMetatiles_HallOfFame
 	.4byte gMetatileAttributes_HallOfFame
 	.4byte 0x0
+
+	.align 2
+gTileset_aqua_hideout_primary::
+	.byte TRUE @ is compressed
+	.byte FALSE @ is secondary
+	.2byte 0
+	.4byte gTilesetTiles_aqua_hideout_primary
+	.4byte gTilesetPalettes_aqua_hideout_primary
+	.4byte gMetatiles_aqua_hideout_primary
+	.4byte gMetatileAttributes_aqua_hideout_primary
+	.4byte NULL
+
+	.align 2
+gTileset_aqua_hideout::
+	.byte TRUE @ is compressed
+	.byte TRUE @ is secondary
+	.2byte 0
+	.4byte gTilesetTiles_aqua_hideout
+	.4byte gTilesetPalettes_aqua_hideout
+	.4byte gMetatiles_aqua_hideout
+	.4byte gMetatileAttributes_aqua_hideout
+	.4byte NULL

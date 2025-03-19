@@ -606,6 +606,7 @@
 #define MAP_SEAFOAM_ISLANDS_B3F                 (79 | (7 << 8))
 #define MAP_SEAFOAM_ISLANDS_B4F                 (80 | (7 << 8))
 #define MAP_VICTORY_ROAD_MOLTRES_CAVE           (81 | (7 << 8))
+#define MAP_AQUA_HIDEOUT_ENTRANCE               (82 | (7 << 8))
 
 // gMapGroup_SpecialArea
 #define MAP_SAFARI_ZONE_CENTER                              (0 | (8 << 8))
@@ -855,6 +856,6 @@
 
 #define MAP_GROUPS_COUNT 35
 
-// static const u8 MAP_GROUP_COUNT[] = {57, 107, 103, 100, 38, 61, 38, 82, 58, 4, 6, 8, 10, 6, 8, 20, 10, 9, 10, 10, 6, 4, 2, 2, 1, 1, 1, 2, 2, 3, 2, 3, 2, 1, 1, 0};
+// static const u8 MAP_GROUP_COUNT[] = {57, 107, 103, 100, 38, 61, 38, 83, 58, 4, 6, 8, 10, 6, 8, 20, 10, 9, 10, 10, 6, 4, 2, 2, 1, 1, 1, 2, 2, 3, 2, 3, 2, 1, 1, 0};
 
 #endif // GUARD_CONSTANTS_MAP_GROUPS_H
