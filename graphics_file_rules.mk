@@ -286,7 +286,7 @@ $(TILESETGFXDIR)/secondary/mystery_events_house/tiles.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -num_tiles 509
 
 $(TILESETGFXDIR)/secondary/pallet_town/tiles.4bpp: %.4bpp: %.png
-	$(GFX) $< $@ -num_tiles 76
+	$(GFX) $< $@ -num_tiles 384
 
 $(TILESETGFXDIR)/secondary/lavender_town/tiles.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -num_tiles 256
@@ -391,7 +391,7 @@ $(TILESETGFXDIR)/secondary/dummy_1/tiles.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -num_tiles 2
 
 $(TILESETGFXDIR)/secondary/generic_building_1/tiles.4bpp: %.4bpp: %.png
-	$(GFX) $< $@ -num_tiles 63
+	$(GFX) $< $@ -num_tiles 384
 
 $(TILESETGFXDIR)/secondary/hoenn_building/tiles.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -num_tiles 383

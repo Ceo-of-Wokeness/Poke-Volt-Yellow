@@ -12,9 +12,191 @@
   "allow_running": false,
   "show_map_name": true,
   "battle_scene": "MAP_BATTLE_SCENE_AQUA",
-    "connections": null,
-  "object_events": [],
-  "warp_events": [],
-  "coord_events": [],
-  "bg_events": []
+  "connections": 0,
+  "object_events": [
+
+  ],
+  "warp_events": [
+    {
+      "x": 29,
+      "y": 1,
+      "elevation": 0,
+      "dest_map": "MAP_AQUA_HIDEOUT_ENTRANCE",
+      "dest_warp_id": 1
+    },
+    {
+      "x": 31,
+      "y": 4,
+      "elevation": 0,
+      "dest_map": "MAP_AQUA_HIDEOUT_B1F",
+      "dest_warp_id": 2
+    },
+    {
+      "x": 27,
+      "y": 12,
+      "elevation": 0,
+      "dest_map": "MAP_AQUA_HIDEOUT_B1F",
+      "dest_warp_id": 1
+    },
+    {
+      "x": 27,
+      "y": 4,
+      "elevation": 0,
+      "dest_map": "MAP_AQUA_HIDEOUT_B1F",
+      "dest_warp_id": 4
+    },
+    {
+      "x": 3,
+      "y": 15,
+      "elevation": 0,
+      "dest_map": "MAP_AQUA_HIDEOUT_B1F",
+      "dest_warp_id": 3
+    },
+    {
+      "x": 3,
+      "y": 20,
+      "elevation": 0,
+      "dest_map": "MAP_AQUA_HIDEOUT_B1F",
+      "dest_warp_id": 6
+    },
+    {
+      "x": 45,
+      "y": 3,
+      "elevation": 0,
+      "dest_map": "MAP_AQUA_HIDEOUT_B1F",
+      "dest_warp_id": 5
+    },
+    {
+      "x": 32,
+      "y": 19,
+      "elevation": 0,
+      "dest_map": "MAP_AQUA_HIDEOUT_B1F",
+      "dest_warp_id": 8
+    },
+    {
+      "x": 20,
+      "y": 4,
+      "elevation": 0,
+      "dest_map": "MAP_AQUA_HIDEOUT_B1F",
+      "dest_warp_id": 7
+    },
+    {
+      "x": 42,
+      "y": 5,
+      "elevation": 0,
+      "dest_map": "MAP_AQUA_HIDEOUT_B1F",
+      "dest_warp_id": 10
+    },
+    {
+      "x": 48,
+      "y": 9,
+      "elevation": 0,
+      "dest_map": "MAP_AQUA_HIDEOUT_B1F",
+      "dest_warp_id": 9
+    },
+    {
+      "x": 45,
+      "y": 9,
+      "elevation": 0,
+      "dest_map": "MAP_AQUA_HIDEOUT_B1F",
+      "dest_warp_id": 12
+    },
+    {
+      "x": 45,
+      "y": 13,
+      "elevation": 0,
+      "dest_map": "MAP_AQUA_HIDEOUT_B1F",
+      "dest_warp_id": 11
+    },
+    {
+      "x": 42,
+      "y": 13,
+      "elevation": 0,
+      "dest_map": "MAP_AQUA_HIDEOUT_B1F",
+      "dest_warp_id": 14
+    },
+    {
+      "x": 48,
+      "y": 17,
+      "elevation": 0,
+      "dest_map": "MAP_AQUA_HIDEOUT_B1F",
+      "dest_warp_id": 13
+    },
+    {
+      "x": 45,
+      "y": 5,
+      "elevation": 0,
+      "dest_map": "MAP_AQUA_HIDEOUT_B1F",
+      "dest_warp_id": 6
+    },
+    {
+      "x": 48,
+      "y": 5,
+      "elevation": 0,
+      "dest_map": "MAP_AQUA_HIDEOUT_B1F",
+      "dest_warp_id": 6
+    },
+    {
+      "x": 42,
+      "y": 9,
+      "elevation": 0,
+      "dest_map": "MAP_AQUA_HIDEOUT_B1F",
+      "dest_warp_id": 15
+    },
+    {
+      "x": 48,
+      "y": 13,
+      "elevation": 0,
+      "dest_map": "MAP_AQUA_HIDEOUT_B1F",
+      "dest_warp_id": 16
+    },
+    {
+      "x": 42,
+      "y": 17,
+      "elevation": 0,
+      "dest_map": "MAP_AQUA_HIDEOUT_B1F",
+      "dest_warp_id": 20
+    },
+    {
+      "x": 23,
+      "y": 10,
+      "elevation": 0,
+      "dest_map": "MAP_AQUA_HIDEOUT_B1F",
+      "dest_warp_id": 19
+    },
+    {
+      "x": 45,
+      "y": 17,
+      "elevation": 0,
+      "dest_map": "MAP_AQUA_HIDEOUT_B1F",
+      "dest_warp_id": 15
+    },
+    {
+      "x": 18,
+      "y": 1,
+      "elevation": 0,
+      "dest_map": "MAP_AQUA_HIDEOUT_B2F",
+      "dest_warp_id": 0
+    },
+    {
+      "x": 12,
+      "y": 1,
+      "elevation": 0,
+      "dest_map": "MAP_AQUA_HIDEOUT_B2F",
+      "dest_warp_id": 1
+    },
+    {
+      "x": 3,
+      "y": 3,
+      "elevation": 0,
+      "dest_map": "MAP_AQUA_HIDEOUT_B2F",
+      "dest_warp_id": 2
+    }
+  ],
+  "coord_events": [
+
+  ],
+  "bg_events": [
+
+  ]
 }

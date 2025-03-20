@@ -14,14 +14,14 @@
   "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
   "connections": [
     {
-      "direction": "up",
+      "map": "MAP_ROUTE1",
       "offset": 0,
-      "map": "MAP_ROUTE1"
+      "direction": "up"
     },
     {
-      "direction": "down",
+      "map": "MAP_ROUTE21_NORTH",
       "offset": 0,
-      "map": "MAP_ROUTE21_NORTH"
+      "direction": "down"
     }
   ],
   "object_events": [
@@ -74,21 +74,21 @@
       "y": 7,
       "elevation": 0,
       "dest_map": "MAP_PALLET_TOWN_PLAYERS_HOUSE_1F",
-      "dest_warp_id": 0
+      "dest_warp_id": "0"
     },
     {
       "x": 15,
       "y": 7,
       "elevation": 0,
       "dest_map": "MAP_PALLET_TOWN_RIVALS_HOUSE",
-      "dest_warp_id": 0
+      "dest_warp_id": "0"
     },
     {
       "x": 16,
       "y": 13,
       "elevation": 0,
       "dest_map": "MAP_PALLET_TOWN_PROFESSOR_OAKS_LAB",
-      "dest_warp_id": 0
+      "dest_warp_id": "0"
     }
   ],
   "coord_events": [
