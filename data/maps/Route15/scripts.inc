@@ -262,3 +262,5 @@ Route15_EventScript_ItemTM18::
 	finditem ITEM_TM18, 1
 	release
 	end
+    
+

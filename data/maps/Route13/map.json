@@ -14,14 +14,14 @@
   "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
   "connections": [
     {
-      "map": "MAP_ROUTE12",
+      "direction": "up",
       "offset": 48,
-      "direction": "up"
+      "map": "MAP_ROUTE12"
     },
     {
-      "map": "MAP_ROUTE14",
+      "direction": "left",
       "offset": 0,
-      "direction": "left"
+      "map": "MAP_ROUTE14"
     }
   ],
   "object_events": [
@@ -37,7 +37,7 @@
       "trainer_sight_or_berry_tree_id": "1",
       "script": "Route13_EventScript_Alma",
       "flag": "0",
-      "in_connection": false
+      "in_connection": ""
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_MAN_2",
@@ -51,7 +51,7 @@
       "trainer_sight_or_berry_tree_id": "1",
       "script": "Route13_EventScript_Sebastian",
       "flag": "0",
-      "in_connection": false
+      "in_connection": ""
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_PICNICKER",
@@ -65,7 +65,7 @@
       "trainer_sight_or_berry_tree_id": "1",
       "script": "Route13_EventScript_Susie",
       "flag": "0",
-      "in_connection": false
+      "in_connection": ""
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_BEAUTY",
@@ -79,7 +79,7 @@
       "trainer_sight_or_berry_tree_id": "3",
       "script": "Route13_EventScript_Sheila",
       "flag": "0",
-      "in_connection": false
+      "in_connection": ""
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_BEAUTY",
@@ -93,7 +93,7 @@
       "trainer_sight_or_berry_tree_id": "3",
       "script": "Route13_EventScript_Lola",
       "flag": "0",
-      "in_connection": false
+      "in_connection": ""
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_PICNICKER",
@@ -107,7 +107,7 @@
       "trainer_sight_or_berry_tree_id": "1",
       "script": "Route13_EventScript_Valerie",
       "flag": "0",
-      "in_connection": false
+      "in_connection": ""
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_PICNICKER",
@@ -121,7 +121,7 @@
       "trainer_sight_or_berry_tree_id": "3",
       "script": "Route13_EventScript_Gwen",
       "flag": "0",
-      "in_connection": false
+      "in_connection": ""
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_BIKER",
@@ -135,7 +135,7 @@
       "trainer_sight_or_berry_tree_id": "1",
       "script": "Route13_EventScript_Jared",
       "flag": "0",
-      "in_connection": false
+      "in_connection": ""
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_MAN_2",
@@ -149,7 +149,7 @@
       "trainer_sight_or_berry_tree_id": "4",
       "script": "Route13_EventScript_Perry",
       "flag": "0",
-      "in_connection": false
+      "in_connection": ""
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_MAN_2",
@@ -163,7 +163,7 @@
       "trainer_sight_or_berry_tree_id": "3",
       "script": "Route13_EventScript_Robert",
       "flag": "0",
-      "in_connection": false
+      "in_connection": ""
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_CUTTABLE_TREE",
@@ -177,7 +177,7 @@
       "trainer_sight_or_berry_tree_id": "0",
       "script": "EventScript_CutTree",
       "flag": "FLAG_TEMP_12",
-      "in_connection": false
+      "in_connection": ""
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_BERRY_TREE",
@@ -191,7 +191,7 @@
       "trainer_sight_or_berry_tree_id": "BERRY_TREE_ROUTE_13_RAZZ",
       "script": "BerryTreeScript",
       "flag": "0",
-      "in_connection": false
+      "in_connection": ""
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_BERRY_TREE",
@@ -205,7 +205,7 @@
       "trainer_sight_or_berry_tree_id": "BERRY_TREE_ROUTE_13_IAPAPA",
       "script": "BerryTreeScript",
       "flag": "0",
-      "in_connection": false
+      "in_connection": ""
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_BERRY_TREE",
@@ -219,7 +219,7 @@
       "trainer_sight_or_berry_tree_id": "BERRY_TREE_ROUTE_13_BLUK",
       "script": "BerryTreeScript",
       "flag": "0",
-      "in_connection": false
+      "in_connection": ""
     }
   ],
   "warp_events": [

@@ -3126,3 +3126,23 @@ gTilesetPalettes_aqua_hideout::
 	.align 2
 gTilesetTiles_aqua_hideout::
 	.incbin "data/tilesets/secondary/aqua_hideout/tiles.4bpp.lz"
+
+	.align 2
+gTilesetPalettes_CyclingRoad::
+	.incbin "data/tilesets/secondary/cyclingroad/palettes/00.gbapal"
+	.incbin "data/tilesets/secondary/cyclingroad/palettes/01.gbapal"
+	.incbin "data/tilesets/secondary/cyclingroad/palettes/02.gbapal"
+	.incbin "data/tilesets/secondary/cyclingroad/palettes/03.gbapal"
+	.incbin "data/tilesets/secondary/cyclingroad/palettes/04.gbapal"
+	.incbin "data/tilesets/secondary/cyclingroad/palettes/05.gbapal"
+	.incbin "data/tilesets/secondary/cyclingroad/palettes/06.gbapal"
+	.incbin "data/tilesets/secondary/cyclingroad/palettes/07.gbapal"
+	.incbin "data/tilesets/secondary/cyclingroad/palettes/08.gbapal"
+	.incbin "data/tilesets/secondary/cyclingroad/palettes/09.gbapal"
+	.incbin "data/tilesets/secondary/cyclingroad/palettes/10.gbapal"
+	.incbin "data/tilesets/secondary/cyclingroad/palettes/11.gbapal"
+	.incbin "data/tilesets/secondary/cyclingroad/palettes/12.gbapal"
+
+	.align 2
+gTilesetTiles_CyclingRoad::
+	.incbin "data/tilesets/secondary/cyclingroad/tiles.4bpp.lz"

@@ -14,9 +14,9 @@
   "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
   "connections": [
     {
-      "map": "MAP_ROUTE24",
+      "direction": "left",
       "offset": 0,
-      "direction": "left"
+      "map": "MAP_ROUTE24"
     }
   ],
   "object_events": [
@@ -32,7 +32,7 @@
       "trainer_sight_or_berry_tree_id": "4",
       "script": "Route25_EventScript_Franklin",
       "flag": "0",
-      "in_connection": false
+      "in_connection": ""
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_YOUNGSTER",
@@ -46,7 +46,7 @@
       "trainer_sight_or_berry_tree_id": "2",
       "script": "Route25_EventScript_Joey",
       "flag": "0",
-      "in_connection": false
+      "in_connection": ""
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_HIKER",
@@ -60,7 +60,7 @@
       "trainer_sight_or_berry_tree_id": "2",
       "script": "Route25_EventScript_Wayne",
       "flag": "0",
-      "in_connection": false
+      "in_connection": ""
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_YOUNGSTER",
@@ -74,7 +74,7 @@
       "trainer_sight_or_berry_tree_id": "2",
       "script": "Route25_EventScript_Dan",
       "flag": "0",
-      "in_connection": false
+      "in_connection": ""
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_PICNICKER",
@@ -88,7 +88,7 @@
       "trainer_sight_or_berry_tree_id": "3",
       "script": "Route25_EventScript_Kelsey",
       "flag": "0",
-      "in_connection": false
+      "in_connection": ""
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_HIKER",
@@ -102,7 +102,7 @@
       "trainer_sight_or_berry_tree_id": "2",
       "script": "Route25_EventScript_Nob",
       "flag": "0",
-      "in_connection": false
+      "in_connection": ""
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_CAMPER",
@@ -116,7 +116,7 @@
       "trainer_sight_or_berry_tree_id": "3",
       "script": "Route25_EventScript_Flint",
       "flag": "0",
-      "in_connection": false
+      "in_connection": ""
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_YOUNGSTER",
@@ -130,7 +130,7 @@
       "trainer_sight_or_berry_tree_id": "2",
       "script": "Route25_EventScript_Chad",
       "flag": "0",
-      "in_connection": false
+      "in_connection": ""
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_LASS",
@@ -144,7 +144,7 @@
       "trainer_sight_or_berry_tree_id": "3",
       "script": "Route25_EventScript_Haley",
       "flag": "0",
-      "in_connection": false
+      "in_connection": ""
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_BEAUTY",
@@ -158,7 +158,7 @@
       "trainer_sight_or_berry_tree_id": "0",
       "script": "Route25_EventScript_Beauty",
       "flag": "0",
-      "in_connection": false
+      "in_connection": ""
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_MAN_3",
@@ -172,7 +172,7 @@
       "trainer_sight_or_berry_tree_id": "0",
       "script": "Route25_EventScript_Man",
       "flag": "0",
-      "in_connection": false
+      "in_connection": ""
     }
   ],
   "warp_events": [
@@ -181,7 +181,7 @@
       "y": 4,
       "elevation": 0,
       "dest_map": "MAP_ROUTE25_SEA_COTTAGE",
-      "dest_warp_id": "0"
+      "dest_warp_id": 0
     }
   ],
   "coord_events": [

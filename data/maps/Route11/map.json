@@ -14,19 +14,19 @@
   "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
   "connections": [
     {
-      "map": "MAP_VERMILION_CITY",
+      "direction": "left",
       "offset": -10,
-      "direction": "left"
+      "map": "MAP_VERMILION_CITY"
     },
     {
-      "map": "MAP_ROUTE12",
+      "direction": "right",
       "offset": -60,
-      "direction": "right"
+      "map": "MAP_ROUTE12"
     },
     {
-      "map": "MAP_VERMILION_CITY",
+      "direction": "left",
       "offset": -10,
-      "direction": "left"
+      "map": "MAP_VERMILION_CITY"
     }
   ],
   "object_events": [
@@ -42,7 +42,7 @@
       "trainer_sight_or_berry_tree_id": "4",
       "script": "Route11_EventScript_Eddie",
       "flag": "0",
-      "in_connection": false
+      "in_connection": ""
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_EXPERT_M",
@@ -56,7 +56,7 @@
       "trainer_sight_or_berry_tree_id": "1",
       "script": "Route11_EventScript_Hugo",
       "flag": "0",
-      "in_connection": false
+      "in_connection": ""
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_YOUNGSTER",
@@ -70,7 +70,7 @@
       "trainer_sight_or_berry_tree_id": "1",
       "script": "Route11_EventScript_Dave",
       "flag": "0",
-      "in_connection": false
+      "in_connection": ""
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_YOUNGSTER",
@@ -84,7 +84,7 @@
       "trainer_sight_or_berry_tree_id": "4",
       "script": "Route11_EventScript_Dillon",
       "flag": "0",
-      "in_connection": false
+      "in_connection": ""
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ENGINEER",
@@ -98,7 +98,7 @@
       "trainer_sight_or_berry_tree_id": "6",
       "script": "Route11_EventScript_Bernie",
       "flag": "0",
-      "in_connection": false
+      "in_connection": ""
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_EXPERT_M",
@@ -112,7 +112,7 @@
       "trainer_sight_or_berry_tree_id": "1",
       "script": "Route11_EventScript_Jasper",
       "flag": "0",
-      "in_connection": false
+      "in_connection": ""
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ENGINEER",
@@ -126,7 +126,7 @@
       "trainer_sight_or_berry_tree_id": "4",
       "script": "Route11_EventScript_Braxton",
       "flag": "0",
-      "in_connection": false
+      "in_connection": ""
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_EXPERT_M",
@@ -140,7 +140,7 @@
       "trainer_sight_or_berry_tree_id": "1",
       "script": "Route11_EventScript_Darian",
       "flag": "0",
-      "in_connection": false
+      "in_connection": ""
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_YOUNGSTER",
@@ -154,7 +154,7 @@
       "trainer_sight_or_berry_tree_id": "1",
       "script": "Route11_EventScript_Yasu",
       "flag": "0",
-      "in_connection": false
+      "in_connection": ""
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_EXPERT_M",
@@ -168,7 +168,7 @@
       "trainer_sight_or_berry_tree_id": "1",
       "script": "Route11_EventScript_Dirk",
       "flag": "0",
-      "in_connection": false
+      "in_connection": ""
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
@@ -182,7 +182,7 @@
       "trainer_sight_or_berry_tree_id": "0",
       "script": "Route11_EventScript_ItemGreatBall",
       "flag": "FLAG_HIDE_ROUTE11_GREAT_BALL",
-      "in_connection": false
+      "in_connection": ""
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
@@ -196,7 +196,7 @@
       "trainer_sight_or_berry_tree_id": "0",
       "script": "Route11_EventScript_ItemXDefend",
       "flag": "FLAG_HIDE_ROUTE11_X_DEFEND",
-      "in_connection": false
+      "in_connection": ""
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
@@ -210,7 +210,7 @@
       "trainer_sight_or_berry_tree_id": "0",
       "script": "Route11_EventScript_ItemAwakening",
       "flag": "FLAG_HIDE_ROUTE11_AWAKENING",
-      "in_connection": false
+      "in_connection": ""
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_BERRY_TREE",
@@ -224,7 +224,7 @@
       "trainer_sight_or_berry_tree_id": "BERRY_TREE_ROUTE_11_SOIL_2",
       "script": "BerryTreeScript",
       "flag": "0",
-      "in_connection": false
+      "in_connection": ""
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_BERRY_TREE",
@@ -238,7 +238,7 @@
       "trainer_sight_or_berry_tree_id": "BERRY_TREE_ROUTE_11_CHERI",
       "script": "BerryTreeScript",
       "flag": "0",
-      "in_connection": false
+      "in_connection": ""
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_BERRY_TREE",
@@ -252,7 +252,7 @@
       "trainer_sight_or_berry_tree_id": "BERRY_TREE_ROUTE_11_SOIL_1",
       "script": "BerryTreeScript",
       "flag": "0",
-      "in_connection": false
+      "in_connection": ""
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_BERRY_TREE",
@@ -266,7 +266,7 @@
       "trainer_sight_or_berry_tree_id": "BERRY_TREE_ROUTE_11_SITRUS",
       "script": "BerryTreeScript",
       "flag": "0",
-      "in_connection": false
+      "in_connection": ""
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ROCKET_MEMBER_M",
@@ -280,7 +280,7 @@
       "trainer_sight_or_berry_tree_id": "1",
       "script": "Route11_RocketFugitive",
       "flag": "FLAG_ROCKET_FUGITIVE_VERMILION_3",
-      "in_connection": false
+      "in_connection": ""
     }
   ],
   "warp_events": [
@@ -289,21 +289,21 @@
       "y": 7,
       "elevation": 0,
       "dest_map": "MAP_DIGLETTS_CAVE_SOUTH_ENTRANCE",
-      "dest_warp_id": "0"
+      "dest_warp_id": 0
     },
     {
       "x": 58,
       "y": 10,
       "elevation": 0,
       "dest_map": "MAP_ROUTE11_EAST_ENTRANCE_1F",
-      "dest_warp_id": "0"
+      "dest_warp_id": 0
     },
     {
       "x": 65,
       "y": 10,
       "elevation": 0,
       "dest_map": "MAP_ROUTE11_EAST_ENTRANCE_1F",
-      "dest_warp_id": "1"
+      "dest_warp_id": 0
     }
   ],
   "coord_events": [

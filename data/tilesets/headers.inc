@@ -1501,3 +1501,14 @@ gTileset_aqua_hideout::
 	.4byte gMetatiles_aqua_hideout
 	.4byte gMetatileAttributes_aqua_hideout
 	.4byte NULL
+
+	.align 2
+gTileset_CyclingRoad::
+	.byte TRUE @ is compressed
+	.byte TRUE @ is secondary
+	.2byte 0
+	.4byte gTilesetTiles_CyclingRoad
+	.4byte gTilesetPalettes_CyclingRoad
+	.4byte gMetatiles_CyclingRoad
+	.4byte gMetatileAttributes_CyclingRoad
+	.4byte NULL

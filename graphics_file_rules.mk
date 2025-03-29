@@ -382,7 +382,7 @@ $(TILESETGFXDIR)/secondary/pewter_city/tiles.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -num_tiles 280
 
 $(TILESETGFXDIR)/secondary/celadon_city/tiles.4bpp: %.4bpp: %.png
-	$(GFX) $< $@ -num_tiles 244
+	$(GFX) $< $@ -num_tiles 384
 
 $(TILESETGFXDIR)/secondary/saffron_city/tiles.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -num_tiles 262

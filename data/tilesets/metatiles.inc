@@ -1052,3 +1052,10 @@ gMetatiles_aqua_hideout::
 	.align 1
 gMetatileAttributes_aqua_hideout::
 	.incbin "data/tilesets/secondary/aqua_hideout/metatile_attributes.bin"
+	.align 1
+gMetatiles_CyclingRoad::
+	.incbin "data/tilesets/secondary/cyclingroad/metatiles.bin"
+
+	.align 1
+gMetatileAttributes_CyclingRoad::
+	.incbin "data/tilesets/secondary/cyclingroad/metatile_attributes.bin"
